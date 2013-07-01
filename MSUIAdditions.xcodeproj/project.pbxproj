@@ -13,9 +13,9 @@
 		1DB77D0A17812ECC006FDCB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB77D0817812ECC006FDCB2 /* UIKit.framework */; };
 		1DB77D0D17812F3E006FDCB2 /* MSAsyncImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB77D0B17812F3E006FDCB2 /* MSAsyncImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DB77D0E17812F3E006FDCB2 /* MSAsyncImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB77D0C17812F3E006FDCB2 /* MSAsyncImageCell.m */; };
-		1DB77D1117815C6E006FDCB2 /* MSTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB77D0F17815C6E006FDCB2 /* MSTextFieldCell.h */; };
+		1DB77D1117815C6E006FDCB2 /* MSTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB77D0F17815C6E006FDCB2 /* MSTextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DB77D1217815C6E006FDCB2 /* MSTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB77D1017815C6E006FDCB2 /* MSTextFieldCell.m */; };
-		1DB77D141781600D006FDCB2 /* MSUIAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB77D131781600D006FDCB2 /* MSUIAdditions.h */; };
+		1DB77D141781600D006FDCB2 /* MSUIAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB77D131781600D006FDCB2 /* MSUIAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -309,10 +309,7 @@
 		1DB77D0517812E6A006FDCB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -327,10 +324,7 @@
 		1DB77D0617812E6A006FDCB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -361,6 +355,7 @@
 				1DB77D0617812E6A006FDCB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
