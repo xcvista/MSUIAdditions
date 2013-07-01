@@ -19,6 +19,19 @@
     return self;
 }
 
+- (void)awakeFromNib
+{
+    UIColor *color = nil;
+    
+    if ([self respondsToSelector:@selector(tintColor)])
+        color = [self tintColor];
+    else
+        color = self.detailTextLabel.textColor;
+    
+    if (color)
+        self.textField.textColor = color;
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     [super setSelected:selected animated:animated];
