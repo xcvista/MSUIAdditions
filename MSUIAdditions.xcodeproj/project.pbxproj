@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		1DB77CFA17812E6A006FDCB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB77CF917812E6A006FDCB2 /* Foundation.framework */; };
 		1DB77D0017812E6A006FDCB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DB77CFE17812E6A006FDCB2 /* InfoPlist.strings */; };
+		1DB77D0917812ECC006FDCB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB77D0717812ECC006FDCB2 /* CoreGraphics.framework */; };
+		1DB77D0A17812ECC006FDCB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB77D0817812ECC006FDCB2 /* UIKit.framework */; };
+		1DB77D0D17812F3E006FDCB2 /* MSAsyncImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB77D0B17812F3E006FDCB2 /* MSAsyncImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DB77D0E17812F3E006FDCB2 /* MSAsyncImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB77D0C17812F3E006FDCB2 /* MSAsyncImageCell.m */; };
+		1DB77D1117815C6E006FDCB2 /* MSTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB77D0F17815C6E006FDCB2 /* MSTextFieldCell.h */; };
+		1DB77D1217815C6E006FDCB2 /* MSTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB77D1017815C6E006FDCB2 /* MSTextFieldCell.m */; };
+		1DB77D141781600D006FDCB2 /* MSUIAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB77D131781600D006FDCB2 /* MSUIAdditions.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,7 +23,15 @@
 		1DB77CF917812E6A006FDCB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DB77CFD17812E6A006FDCB2 /* MSUIAdditions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MSUIAdditions-Info.plist"; sourceTree = "<group>"; };
 		1DB77CFF17812E6A006FDCB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1DB77D0117812E6A006FDCB2 /* MSUIAdditions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MSUIAdditions-Prefix.pch"; sourceTree = "<group>"; };
+		1DB77D0717812ECC006FDCB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DB77D0817812ECC006FDCB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DB77D0B17812F3E006FDCB2 /* MSAsyncImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAsyncImageCell.h; sourceTree = "<group>"; };
+		1DB77D0C17812F3E006FDCB2 /* MSAsyncImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAsyncImageCell.m; sourceTree = "<group>"; };
+		1DB77D0F17815C6E006FDCB2 /* MSTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTextFieldCell.h; sourceTree = "<group>"; };
+		1DB77D1017815C6E006FDCB2 /* MSTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTextFieldCell.m; sourceTree = "<group>"; };
+		1DB77D131781600D006FDCB2 /* MSUIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUIAdditions.h; sourceTree = "<group>"; };
+		1DB77D1517816B42006FDCB2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1DB77D1617816B6F006FDCB2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB77D0917812ECC006FDCB2 /* CoreGraphics.framework in Frameworks */,
+				1DB77D0A17812ECC006FDCB2 /* UIKit.framework in Frameworks */,
 				1DB77CFA17812E6A006FDCB2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,6 +51,8 @@
 		1DB77CE917812E6A006FDCB2 = {
 			isa = PBXGroup;
 			children = (
+				1DB77D1517816B42006FDCB2 /* .gitignore */,
+				1DB77D1617816B6F006FDCB2 /* README.md */,
 				1DB77CFB17812E6A006FDCB2 /* MSUIAdditions */,
 				1DB77CF817812E6A006FDCB2 /* Frameworks */,
 				1DB77CF717812E6A006FDCB2 /* Products */,
@@ -51,6 +70,8 @@
 		1DB77CF817812E6A006FDCB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1DB77D0717812ECC006FDCB2 /* CoreGraphics.framework */,
+				1DB77D0817812ECC006FDCB2 /* UIKit.framework */,
 				1DB77CF917812E6A006FDCB2 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -59,6 +80,11 @@
 		1DB77CFB17812E6A006FDCB2 /* MSUIAdditions */ = {
 			isa = PBXGroup;
 			children = (
+				1DB77D131781600D006FDCB2 /* MSUIAdditions.h */,
+				1DB77D0B17812F3E006FDCB2 /* MSAsyncImageCell.h */,
+				1DB77D0C17812F3E006FDCB2 /* MSAsyncImageCell.m */,
+				1DB77D0F17815C6E006FDCB2 /* MSTextFieldCell.h */,
+				1DB77D1017815C6E006FDCB2 /* MSTextFieldCell.m */,
 				1DB77CFC17812E6A006FDCB2 /* Supporting Files */,
 			);
 			path = MSUIAdditions;
@@ -69,7 +95,6 @@
 			children = (
 				1DB77CFD17812E6A006FDCB2 /* MSUIAdditions-Info.plist */,
 				1DB77CFE17812E6A006FDCB2 /* InfoPlist.strings */,
-				1DB77D0117812E6A006FDCB2 /* MSUIAdditions-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -81,6 +106,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB77D1117815C6E006FDCB2 /* MSTextFieldCell.h in Headers */,
+				1DB77D141781600D006FDCB2 /* MSUIAdditions.h in Headers */,
+				1DB77D0D17812F3E006FDCB2 /* MSAsyncImageCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +142,7 @@
 		1DB77CEA17812E6A006FDCB2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MS;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = muski;
 			};
@@ -192,6 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB77D0E17812F3E006FDCB2 /* MSAsyncImageCell.m in Sources */,
+				1DB77D1217815C6E006FDCB2 /* MSTextFieldCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +313,10 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MSUIAdditions/MSUIAdditions-Prefix.pch";
 				INFOPLIST_FILE = "MSUIAdditions/MSUIAdditions-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -301,11 +331,10 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MSUIAdditions/MSUIAdditions-Prefix.pch";
 				INFOPLIST_FILE = "MSUIAdditions/MSUIAdditions-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
