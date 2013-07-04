@@ -11,7 +11,7 @@ application against it. You may want to check out `iOS universal framework` if
 you see bullseyes in Xcode. (They should be yellow toolboxes)
 
 ## License
-&copy; Copyright &copy; 2013 Maxthon Chan et al.
+Copyright &copy; 2013 Maxthon Chan et al.
 
 This project is free software. You can freely use, copy, distribute, modify and
 derive works from this project, given:
