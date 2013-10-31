@@ -5,14 +5,10 @@
 ///  @copyright Copyright (c) 2013 muski. All rights reserved.
 ///
 
-#ifndef MSUIAdditions_MSUIAdditions_h
-#define MSUIAdditions_MSUIAdditions_h
-
-#ifdef __OBJC__
+#import <UIKit/UIKit.h>
 
 #import <MSUIAdditions/MSAsyncImageCell.h>
 #import <MSUIAdditions/MSTextFieldCell.h>
+#import <MSUIAdditions/MSRoundedRectButton.h>
+#import <MSUIAdditions/MSUnderlinedTextField.h>
 
-#endif
-
-#endif

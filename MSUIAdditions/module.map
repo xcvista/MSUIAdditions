@@ -1,0 +1,8 @@
+framework module MSUIAdditions {
+  umbrella header "MSUIAdditions.h"
+
+  export *
+  module * { 
+    export *
+  }
+}

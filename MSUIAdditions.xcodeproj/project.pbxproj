@@ -7,16 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D22204A18220A3300A3113A /* module.map in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1DE3DC4B182209D600A50D58 /* module.map */; };
 		1DB77CFA17812E6A006FDCB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB77CF917812E6A006FDCB2 /* Foundation.framework */; };
 		1DB77D0017812E6A006FDCB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DB77CFE17812E6A006FDCB2 /* InfoPlist.strings */; };
 		1DB77D0917812ECC006FDCB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB77D0717812ECC006FDCB2 /* CoreGraphics.framework */; };
 		1DB77D0A17812ECC006FDCB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB77D0817812ECC006FDCB2 /* UIKit.framework */; };
-		1DB77D0D17812F3E006FDCB2 /* MSAsyncImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB77D0B17812F3E006FDCB2 /* MSAsyncImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DB77D0E17812F3E006FDCB2 /* MSAsyncImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB77D0C17812F3E006FDCB2 /* MSAsyncImageCell.m */; };
 		1DB77D1117815C6E006FDCB2 /* MSTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB77D0F17815C6E006FDCB2 /* MSTextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DB77D1217815C6E006FDCB2 /* MSTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB77D1017815C6E006FDCB2 /* MSTextFieldCell.m */; };
 		1DB77D141781600D006FDCB2 /* MSUIAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB77D131781600D006FDCB2 /* MSUIAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DE3DC451822095400A50D58 /* MSAsyncImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE3DC3F1822095400A50D58 /* MSAsyncImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DE3DC461822095400A50D58 /* MSAsyncImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3DC401822095400A50D58 /* MSAsyncImageCell.m */; };
+		1DE3DC471822095400A50D58 /* MSRoundedRectButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE3DC411822095400A50D58 /* MSRoundedRectButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DE3DC481822095400A50D58 /* MSRoundedRectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3DC421822095400A50D58 /* MSRoundedRectButton.m */; };
+		1DE3DC491822095400A50D58 /* MSUnderlinedTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE3DC431822095400A50D58 /* MSUnderlinedTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DE3DC4A1822095400A50D58 /* MSUnderlinedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3DC441822095400A50D58 /* MSUnderlinedTextField.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DE3DC4D182209F200A50D58 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 1;
+			files = (
+				1D22204A18220A3300A3113A /* module.map in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1DB77CF617812E6A006FDCB2 /* MSUIAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = MSUIAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,13 +43,18 @@
 		1DB77CFF17812E6A006FDCB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1DB77D0717812ECC006FDCB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1DB77D0817812ECC006FDCB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		1DB77D0B17812F3E006FDCB2 /* MSAsyncImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAsyncImageCell.h; sourceTree = "<group>"; };
-		1DB77D0C17812F3E006FDCB2 /* MSAsyncImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAsyncImageCell.m; sourceTree = "<group>"; };
 		1DB77D0F17815C6E006FDCB2 /* MSTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTextFieldCell.h; sourceTree = "<group>"; };
 		1DB77D1017815C6E006FDCB2 /* MSTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTextFieldCell.m; sourceTree = "<group>"; };
 		1DB77D131781600D006FDCB2 /* MSUIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUIAdditions.h; sourceTree = "<group>"; };
 		1DB77D1517816B42006FDCB2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1DB77D1617816B6F006FDCB2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1DE3DC3F1822095400A50D58 /* MSAsyncImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAsyncImageCell.h; sourceTree = "<group>"; };
+		1DE3DC401822095400A50D58 /* MSAsyncImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAsyncImageCell.m; sourceTree = "<group>"; };
+		1DE3DC411822095400A50D58 /* MSRoundedRectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRoundedRectButton.h; sourceTree = "<group>"; };
+		1DE3DC421822095400A50D58 /* MSRoundedRectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRoundedRectButton.m; sourceTree = "<group>"; };
+		1DE3DC431822095400A50D58 /* MSUnderlinedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUnderlinedTextField.h; sourceTree = "<group>"; };
+		1DE3DC441822095400A50D58 /* MSUnderlinedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUnderlinedTextField.m; sourceTree = "<group>"; };
+		1DE3DC4B182209D600A50D58 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = module.map; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				1DB77D131781600D006FDCB2 /* MSUIAdditions.h */,
-				1DB77D0B17812F3E006FDCB2 /* MSAsyncImageCell.h */,
-				1DB77D0C17812F3E006FDCB2 /* MSAsyncImageCell.m */,
 				1DB77D0F17815C6E006FDCB2 /* MSTextFieldCell.h */,
 				1DB77D1017815C6E006FDCB2 /* MSTextFieldCell.m */,
+				1DE3DC3F1822095400A50D58 /* MSAsyncImageCell.h */,
+				1DE3DC401822095400A50D58 /* MSAsyncImageCell.m */,
+				1DE3DC411822095400A50D58 /* MSRoundedRectButton.h */,
+				1DE3DC421822095400A50D58 /* MSRoundedRectButton.m */,
+				1DE3DC431822095400A50D58 /* MSUnderlinedTextField.h */,
+				1DE3DC441822095400A50D58 /* MSUnderlinedTextField.m */,
 				1DB77CFC17812E6A006FDCB2 /* Supporting Files */,
 			);
 			path = MSUIAdditions;
@@ -95,6 +122,7 @@
 			children = (
 				1DB77CFD17812E6A006FDCB2 /* MSUIAdditions-Info.plist */,
 				1DB77CFE17812E6A006FDCB2 /* InfoPlist.strings */,
+				1DE3DC4B182209D600A50D58 /* module.map */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -107,8 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DB77D1117815C6E006FDCB2 /* MSTextFieldCell.h in Headers */,
+				1DE3DC491822095400A50D58 /* MSUnderlinedTextField.h in Headers */,
+				1DE3DC451822095400A50D58 /* MSAsyncImageCell.h in Headers */,
+				1DE3DC471822095400A50D58 /* MSRoundedRectButton.h in Headers */,
 				1DB77D141781600D006FDCB2 /* MSUIAdditions.h in Headers */,
-				1DB77D0D17812F3E006FDCB2 /* MSAsyncImageCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +154,7 @@
 				1DB77CF017812E6A006FDCB2 /* Frameworks */,
 				1DB77CF117812E6A006FDCB2 /* Headers */,
 				1DB77CF217812E6A006FDCB2 /* Resources */,
+				1DE3DC4D182209F200A50D58 /* CopyFiles */,
 				1DB77CF317812E6A006FDCB2 /* ShellScript */,
 				1DB77CF417812E6A006FDCB2 /* ShellScript */,
 			);
@@ -221,7 +252,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DB77D0E17812F3E006FDCB2 /* MSAsyncImageCell.m in Sources */,
+				1DE3DC461822095400A50D58 /* MSAsyncImageCell.m in Sources */,
+				1DE3DC4A1822095400A50D58 /* MSUnderlinedTextField.m in Sources */,
+				1DE3DC481822095400A50D58 /* MSRoundedRectButton.m in Sources */,
 				1DB77D1217815C6E006FDCB2 /* MSTextFieldCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
