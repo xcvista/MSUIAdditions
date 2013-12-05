@@ -1,3 +1,3 @@
 language: objective-c
-install: ./install-ios-framework.md
+install: ./install-ios-framework.sh
 script: xctool -project MSUIAdditions.xcodeproj -scheme MSUIAdditions build
