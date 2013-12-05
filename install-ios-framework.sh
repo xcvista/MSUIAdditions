@@ -9,17 +9,9 @@
 mkdir -p Frameworks
 cd Frameworks
 
-XCODEROOT=$(xcode-select -p)
-
 git clone https://github.com/kstenerud/iOS-Universal-Framework.git
 cd iOS-Universal-Framework/Real\ Framework
 ./install.sh << "EOF"
 
 y
 EOF
-
-if [ ! -e $XCODEROOT/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Specifications/UFW-iOSStaticFramework.xcspec ]; then
-exit 1
-else
-exit 0
-fi
