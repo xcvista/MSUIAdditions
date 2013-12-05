@@ -46,6 +46,7 @@
 		1D2FB0261850544F00374857 /* MSTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTextCell.h; sourceTree = "<group>"; };
 		1D2FB0271850544F00374857 /* MSTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTextCell.m; sourceTree = "<group>"; };
 		1D2FB02A185054F400374857 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		1D2FB02B1850589E00374857 /* install-ios-framework.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-ios-framework.sh"; sourceTree = "<group>"; };
 		1DB77CF617812E6A006FDCB2 /* MSUIAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = MSUIAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB77CF917812E6A006FDCB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DB77CFD17812E6A006FDCB2 /* MSUIAdditions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MSUIAdditions-Info.plist"; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 				1DB77D1517816B42006FDCB2 /* .gitignore */,
 				1D2FB02A185054F400374857 /* .travis.yml */,
 				1DB77D1617816B6F006FDCB2 /* README.md */,
+				1D2FB02B1850589E00374857 /* install-ios-framework.sh */,
 				1DB77CFB17812E6A006FDCB2 /* MSUIAdditions */,
 				1DB77CF817812E6A006FDCB2 /* Frameworks */,
 				1DB77CF717812E6A006FDCB2 /* Products */,
