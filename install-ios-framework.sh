@@ -18,7 +18,7 @@ cd iOS-Universal-Framework/Real\ Framework
 y
 EOF
 
-if [ ! -f $XCODEROOT/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Specifications/UFW-iOSStaticFramework.xcspec ]; then
+if [ ! -e $XCODEROOT/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Specifications/UFW-iOSStaticFramework.xcspec ]; then
 exit 1
 else
 exit 0

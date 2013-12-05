@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D22204A18220A3300A3113A /* module.map in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1DE3DC4B182209D600A50D58 /* module.map */; };
+		1D2FB0241850539B00374857 /* UIImage+MSCircledText.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D2FB0221850539B00374857 /* UIImage+MSCircledText.h */; };
+		1D2FB0251850539B00374857 /* UIImage+MSCircledText.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FB0231850539B00374857 /* UIImage+MSCircledText.m */; };
+		1D2FB0281850544F00374857 /* MSTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D2FB0261850544F00374857 /* MSTextCell.h */; };
+		1D2FB0291850544F00374857 /* MSTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FB0271850544F00374857 /* MSTextCell.m */; };
+		1DB77CFA17812E6A006FDCB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB77CF917812E6A006FDCB2 /* Foundation.framework */; };
+		1DB77D0017812E6A006FDCB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DB77CFE17812E6A006FDCB2 /* InfoPlist.strings */; };
+		1DB77D0917812ECC006FDCB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB77D0717812ECC006FDCB2 /* CoreGraphics.framework */; };
+		1DB77D0A17812ECC006FDCB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB77D0817812ECC006FDCB2 /* UIKit.framework */; };
+		1DB77D1117815C6E006FDCB2 /* MSTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB77D0F17815C6E006FDCB2 /* MSTextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DB77D1217815C6E006FDCB2 /* MSTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB77D1017815C6E006FDCB2 /* MSTextFieldCell.m */; };
+		1DB77D141781600D006FDCB2 /* MSUIAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB77D131781600D006FDCB2 /* MSUIAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DE3DC451822095400A50D58 /* MSAsyncImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE3DC3F1822095400A50D58 /* MSAsyncImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DE3DC461822095400A50D58 /* MSAsyncImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3DC401822095400A50D58 /* MSAsyncImageCell.m */; };
+		1DE3DC471822095400A50D58 /* MSRoundedRectButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE3DC411822095400A50D58 /* MSRoundedRectButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DE3DC481822095400A50D58 /* MSRoundedRectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3DC421822095400A50D58 /* MSRoundedRectButton.m */; };
+		1DE3DC491822095400A50D58 /* MSUnderlinedTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE3DC431822095400A50D58 /* MSUnderlinedTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DE3DC4A1822095400A50D58 /* MSUnderlinedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3DC441822095400A50D58 /* MSUnderlinedTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DE3DC4D182209F200A50D58 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 1;
+			files = (
+				1D22204A18220A3300A3113A /* module.map in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D2FB0221850539B00374857 /* UIImage+MSCircledText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MSCircledText.h"; sourceTree = "<group>"; };
+		1D2FB0231850539B00374857 /* UIImage+MSCircledText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MSCircledText.m"; sourceTree = "<group>"; };
+		1D2FB0261850544F00374857 /* MSTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTextCell.h; sourceTree = "<group>"; };
+		1D2FB0271850544F00374857 /* MSTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTextCell.m; sourceTree = "<group>"; };
+		1D2FB02A185054F400374857 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		1D2FB02B1850589E00374857 /* install-ios-framework.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-ios-framework.sh"; sourceTree = "<group>"; };
+		1DB77CF617812E6A006FDCB2 /* MSUIAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = MSUIAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB77CF917812E6A006FDCB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DB77CFD17812E6A006FDCB2 /* MSUIAdditions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MSUIAdditions-Info.plist"; sourceTree = "<group>"; };
+		1DB77CFF17812E6A006FDCB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DB77D0717812ECC006FDCB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DB77D0817812ECC006FDCB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DB77D0F17815C6E006FDCB2 /* MSTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTextFieldCell.h; sourceTree = "<group>"; };
+		1DB77D1017815C6E006FDCB2 /* MSTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTextFieldCell.m; sourceTree = "<group>"; };
+		1DB77D131781600D006FDCB2 /* MSUIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUIAdditions.h; sourceTree = "<group>"; };
+		1DB77D1517816B42006FDCB2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1DB77D1617816B6F006FDCB2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1DE3DC3F1822095400A50D58 /* MSAsyncImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAsyncImageCell.h; sourceTree = "<group>"; };
+		1DE3DC401822095400A50D58 /* MSAsyncImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAsyncImageCell.m; sourceTree = "<group>"; };
+		1DE3DC411822095400A50D58 /* MSRoundedRectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRoundedRectButton.h; sourceTree = "<group>"; };
+		1DE3DC421822095400A50D58 /* MSRoundedRectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRoundedRectButton.m; sourceTree = "<group>"; };
+		1DE3DC431822095400A50D58 /* MSUnderlinedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUnderlinedTextField.h; sourceTree = "<group>"; };
+		1DE3DC441822095400A50D58 /* MSUnderlinedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUnderlinedTextField.m; sourceTree = "<group>"; };
+		1DE3DC4B182209D600A50D58 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = module.map; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB77CF017812E6A006FDCB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB77D0917812ECC006FDCB2 /* CoreGraphics.framework in Frameworks */,
+				1DB77D0A17812ECC006FDCB2 /* UIKit.framework in Frameworks */,
+				1DB77CFA17812E6A006FDCB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB77CE917812E6A006FDCB2 = {
+			isa = PBXGroup;
+			children = (
+				1DB77D1517816B42006FDCB2 /* .gitignore */,
+				1D2FB02A185054F400374857 /* .travis.yml */,
+				1DB77D1617816B6F006FDCB2 /* README.md */,
+				1D2FB02B1850589E00374857 /* install-ios-framework.sh */,
+				1DB77CFB17812E6A006FDCB2 /* MSUIAdditions */,
+				1DB77CF817812E6A006FDCB2 /* Frameworks */,
+				1DB77CF717812E6A006FDCB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DB77CF717812E6A006FDCB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DB77CF617812E6A006FDCB2 /* MSUIAdditions.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DB77CF817812E6A006FDCB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DB77D0717812ECC006FDCB2 /* CoreGraphics.framework */,
+				1DB77D0817812ECC006FDCB2 /* UIKit.framework */,
+				1DB77CF917812E6A006FDCB2 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DB77CFB17812E6A006FDCB2 /* MSUIAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				1DB77D131781600D006FDCB2 /* MSUIAdditions.h */,
+				1DB77D0F17815C6E006FDCB2 /* MSTextFieldCell.h */,
+				1DB77D1017815C6E006FDCB2 /* MSTextFieldCell.m */,
+				1DE3DC3F1822095400A50D58 /* MSAsyncImageCell.h */,
+				1DE3DC401822095400A50D58 /* MSAsyncImageCell.m */,
+				1DE3DC411822095400A50D58 /* MSRoundedRectButton.h */,
+				1DE3DC421822095400A50D58 /* MSRoundedRectButton.m */,
+				1DE3DC431822095400A50D58 /* MSUnderlinedTextField.h */,
+				1DE3DC441822095400A50D58 /* MSUnderlinedTextField.m */,
+				1D2FB0221850539B00374857 /* UIImage+MSCircledText.h */,
+				1D2FB0231850539B00374857 /* UIImage+MSCircledText.m */,
+				1D2FB0261850544F00374857 /* MSTextCell.h */,
+				1D2FB0271850544F00374857 /* MSTextCell.m */,
+				1DB77CFC17812E6A006FDCB2 /* Supporting Files */,
+			);
+			path = MSUIAdditions;
+			sourceTree = "<group>";
+		};
+		1DB77CFC17812E6A006FDCB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DB77CFD17812E6A006FDCB2 /* MSUIAdditions-Info.plist */,
+				1DB77CFE17812E6A006FDCB2 /* InfoPlist.strings */,
+				1DE3DC4B182209D600A50D58 /* module.map */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DB77CF117812E6A006FDCB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2FB0281850544F00374857 /* MSTextCell.h in Headers */,
+				1DB77D1117815C6E006FDCB2 /* MSTextFieldCell.h in Headers */,
+				1DE3DC491822095400A50D58 /* MSUnderlinedTextField.h in Headers */,
+				1DE3DC451822095400A50D58 /* MSAsyncImageCell.h in Headers */,
+				1DE3DC471822095400A50D58 /* MSRoundedRectButton.h in Headers */,
+				1D2FB0241850539B00374857 /* UIImage+MSCircledText.h in Headers */,
+				1DB77D141781600D006FDCB2 /* MSUIAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DB77CF517812E6A006FDCB2 /* MSUIAdditions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB77D0417812E6A006FDCB2 /* Build configuration list for PBXNativeTarget "MSUIAdditions" */;
+			buildPhases = (
+				1DB77CEF17812E6A006FDCB2 /* Sources */,
+				1DB77CF017812E6A006FDCB2 /* Frameworks */,
+				1DB77CF117812E6A006FDCB2 /* Headers */,
+				1DB77CF217812E6A006FDCB2 /* Resources */,
+				1DE3DC4D182209F200A50D58 /* CopyFiles */,
+				1DB77CF417812E6A006FDCB2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSUIAdditions;
+			productName = MSUIAdditions;
+			productReference = 1DB77CF617812E6A006FDCB2 /* MSUIAdditions.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DB77CEA17812E6A006FDCB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = muski;
+			};
+			buildConfigurationList = 1DB77CED17812E6A006FDCB2 /* Build configuration list for PBXProject "MSUIAdditions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1DB77CE917812E6A006FDCB2;
+			productRefGroup = 1DB77CF717812E6A006FDCB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DB77CF517812E6A006FDCB2 /* MSUIAdditions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DB77CF217812E6A006FDCB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB77D0017812E6A006FDCB2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DB77CF417812E6A006FDCB2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# TAG: BUILD SCRIPT\n\nset -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB77CEF17812E6A006FDCB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2FB0291850544F00374857 /* MSTextCell.m in Sources */,
+				1DE3DC461822095400A50D58 /* MSAsyncImageCell.m in Sources */,
+				1DE3DC4A1822095400A50D58 /* MSUnderlinedTextField.m in Sources */,
+				1D2FB0251850539B00374857 /* UIImage+MSCircledText.m in Sources */,
+				1DE3DC481822095400A50D58 /* MSRoundedRectButton.m in Sources */,
+				1DB77D1217815C6E006FDCB2 /* MSTextFieldCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DB77CFE17812E6A006FDCB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB77CFF17812E6A006FDCB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DB77D0217812E6A006FDCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DB77D0317812E6A006FDCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DB77D0517812E6A006FDCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "MSUIAdditions/MSUIAdditions-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DB77D0617812E6A006FDCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "MSUIAdditions/MSUIAdditions-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DB77CED17812E6A006FDCB2 /* Build configuration list for PBXProject "MSUIAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB77D0217812E6A006FDCB2 /* Debug */,
+				1DB77D0317812E6A006FDCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB77D0417812E6A006FDCB2 /* Build configuration list for PBXNativeTarget "MSUIAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB77D0517812E6A006FDCB2 /* Debug */,
+				1DB77D0617812E6A006FDCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DB77CEA17812E6A006FDCB2 /* Project object */;
+}
