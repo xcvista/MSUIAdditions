@@ -11,4 +11,6 @@
 #import <MSUIAdditions/MSTextFieldCell.h>
 #import <MSUIAdditions/MSRoundedRectButton.h>
 #import <MSUIAdditions/MSUnderlinedTextField.h>
+#import <MSUIAdditions/MSTextCell.h>
 
+#import <MSUIAdditions/UIImage+MSCircledText.h>

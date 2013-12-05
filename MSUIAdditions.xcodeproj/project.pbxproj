@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1D22204A18220A3300A3113A /* module.map in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1DE3DC4B182209D600A50D58 /* module.map */; };
+		1D2FB0241850539B00374857 /* UIImage+MSCircledText.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D2FB0221850539B00374857 /* UIImage+MSCircledText.h */; };
+		1D2FB0251850539B00374857 /* UIImage+MSCircledText.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FB0231850539B00374857 /* UIImage+MSCircledText.m */; };
+		1D2FB0281850544F00374857 /* MSTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D2FB0261850544F00374857 /* MSTextCell.h */; };
+		1D2FB0291850544F00374857 /* MSTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FB0271850544F00374857 /* MSTextCell.m */; };
 		1DB77CFA17812E6A006FDCB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB77CF917812E6A006FDCB2 /* Foundation.framework */; };
 		1DB77D0017812E6A006FDCB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DB77CFE17812E6A006FDCB2 /* InfoPlist.strings */; };
 		1DB77D0917812ECC006FDCB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB77D0717812ECC006FDCB2 /* CoreGraphics.framework */; };
@@ -37,6 +41,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D2FB0221850539B00374857 /* UIImage+MSCircledText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MSCircledText.h"; sourceTree = "<group>"; };
+		1D2FB0231850539B00374857 /* UIImage+MSCircledText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MSCircledText.m"; sourceTree = "<group>"; };
+		1D2FB0261850544F00374857 /* MSTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTextCell.h; sourceTree = "<group>"; };
+		1D2FB0271850544F00374857 /* MSTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTextCell.m; sourceTree = "<group>"; };
+		1D2FB02A185054F400374857 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		1DB77CF617812E6A006FDCB2 /* MSUIAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = MSUIAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB77CF917812E6A006FDCB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DB77CFD17812E6A006FDCB2 /* MSUIAdditions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MSUIAdditions-Info.plist"; sourceTree = "<group>"; };
@@ -75,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				1DB77D1517816B42006FDCB2 /* .gitignore */,
+				1D2FB02A185054F400374857 /* .travis.yml */,
 				1DB77D1617816B6F006FDCB2 /* README.md */,
 				1DB77CFB17812E6A006FDCB2 /* MSUIAdditions */,
 				1DB77CF817812E6A006FDCB2 /* Frameworks */,
@@ -112,6 +122,10 @@
 				1DE3DC421822095400A50D58 /* MSRoundedRectButton.m */,
 				1DE3DC431822095400A50D58 /* MSUnderlinedTextField.h */,
 				1DE3DC441822095400A50D58 /* MSUnderlinedTextField.m */,
+				1D2FB0221850539B00374857 /* UIImage+MSCircledText.h */,
+				1D2FB0231850539B00374857 /* UIImage+MSCircledText.m */,
+				1D2FB0261850544F00374857 /* MSTextCell.h */,
+				1D2FB0271850544F00374857 /* MSTextCell.m */,
 				1DB77CFC17812E6A006FDCB2 /* Supporting Files */,
 			);
 			path = MSUIAdditions;
@@ -134,10 +148,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2FB0281850544F00374857 /* MSTextCell.h in Headers */,
 				1DB77D1117815C6E006FDCB2 /* MSTextFieldCell.h in Headers */,
 				1DE3DC491822095400A50D58 /* MSUnderlinedTextField.h in Headers */,
 				1DE3DC451822095400A50D58 /* MSAsyncImageCell.h in Headers */,
 				1DE3DC471822095400A50D58 /* MSRoundedRectButton.h in Headers */,
+				1D2FB0241850539B00374857 /* UIImage+MSCircledText.h in Headers */,
 				1DB77D141781600D006FDCB2 /* MSUIAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2FB0291850544F00374857 /* MSTextCell.m in Sources */,
 				1DE3DC461822095400A50D58 /* MSAsyncImageCell.m in Sources */,
 				1DE3DC4A1822095400A50D58 /* MSUnderlinedTextField.m in Sources */,
+				1D2FB0251850539B00374857 /* UIImage+MSCircledText.m in Sources */,
 				1DE3DC481822095400A50D58 /* MSRoundedRectButton.m in Sources */,
 				1DB77D1217815C6E006FDCB2 /* MSTextFieldCell.m in Sources */,
 			);

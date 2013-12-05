@@ -1,0 +1,2 @@
+language: objective-c
+script: xctool -project MSUIAdditions.xcodeproj -scheme MSUIAdditions build
